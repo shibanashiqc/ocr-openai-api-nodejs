@@ -37,7 +37,7 @@ router.post('/ocr', async (req, res) => {
         );
 
         
-        var command = 'please key in the invoice details below: must key json like format output object with all details like company_name, invoice_number, invoice_date, trn_number, gross_amount, vat_amount, total_amount etc.. I need extract Invoice Number	Invoice Date	TRN Number	Company Name	Gross Amount	VAT Amount	Total Amount and i need an  json format output object use like ex: company_name etc. ';
+        var command = 'please key in the invoice details below: must key json like format output object with all details like company_name, invoice_number, invoice_date, trn_number, gross_amount, vat_amount, total_amount etc.. I need extract Invoice Number	Invoice Date	TRN Number	Company Name	Gross Amount	VAT Amount	Total Amount and i need an  json format output object use like ex: company_name etc. - ';
         var prompt = command + '\n\n' + text;
 
         try {
